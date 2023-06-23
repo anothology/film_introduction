@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<!--<link href="css/技能训练2.css" rel="stylesheet"/>-->
+        <style>
+            p { color:#ffffff;
+	       font-size: 20px;
+	       text-indent:50px;
+          }
+          #center{
+				width:65%;
+				margin:0%  17.5%  0% 17.5%;
+			}
+        </style>
+		<title></title>
+	</head>
+	<body background="img/报告背景1.png" style="background-repeat:no-repeat; background-attachment: fixed;background-position: center;background-size:100% 100%;" >
+		<div id =center>
+        <font color="#ffffff" face="simsun">
+			<h1 align="center"><font color="#00ff7f"><strong>《Web应用基础》课程结业报告</strong></font></h1>
+            <h2 align="center"><font color="#33FFCC">项目简介</font></h2>
+            <p>Web应用是当今网络世界中不可或缺的一部分，其广泛应用于各个领域，使得我们生活和工作中的许多事物变得更加便捷和高效。而在这样一个高速发展的时代，
+                学习Web应用的技术和知识显得尤为重要。因此，本人在《Web应用基础》课程中选择了基础的HTML和CSS作为主要开发语言，开发了一个电影介绍项目。
+            </p>
+            <h2 align="center"><font color="#33FFCC">开发过程</font></h2>
+            <p>
+                本项目包括了初始页面、主页、剧情概况、幕后制作、精彩剧照五个页面，对电影《速度与激情》进行了较为详细的介绍。
+                在开发过程中，我首先进行了网站的主页面设计，利用HTML和CSS来布局网站的基本结构和样式，包括图片超链接的设置以及椭圆形滚动样式的实现。
+                接着，我针对上述五个不同的页面分别进行设计以及用超链接把这五个页面链接起来，并在导航栏中显示，完成了基本的页面显示。
+            </p>
+
+            <h2 align="center"><font color="#33FFCC">遇到的问题</font></h2>
+            <p>
+                然而，在这个开发过程中，我也遇到了很多问题。比如刚开始的时候，页面的整体布局十分难看，采用的全屏铺满的样式，字体段落格式也有排版问题等。
+                为了让整个页面看起来比较生动，我想到了用超链接图片的方式，可以链接到这一系列电影中的每一个版本的百度百科，进行一个更详细的介绍，
+                但是在布局方面陷入瓶颈，图片分布杂乱，看起来十分不美观。另外，不同页面的跳转排版的思考了很久。
+            </p>
+
+            <h2 align="center"><font color="#33FFCC">如何解决</font></h2>
+            <p>
+              设置完背景后，在页面布局上，想到了用盒子模型来布局，可以使页面主题文字部分居中展示；字体段落方面，采用不同级别标题，在CSS样式中划定字体以及颜色大小，
+              段落布局用text-indent:50px设置首行缩进；图片超链接方面，为了让整体美观，给图片也设置了边框和椭圆形状，至于图片动画移动的形式，采用了marquee标签，且
+              设置了鼠标光标移动到图片上的两个事件：onMouseOut=“this.start()” 当鼠标移出该区域时，onMouseOver=“this.stop()”当鼠标移入该区域时；以及图片的滚动方向
+              的设置等等；至于不同页面之间的跳转，为了让和整体看起来较为和谐，整体上还采用了最初页面的布局，用iframe规定了一个内联框架，可以获取父页面的基本内容，再加
+              上本页面独有的内容。
+              
+            </p>
+
+            <h2 align="center"><font color="#33FFCC">哪些未解决</font></h2>
+            <p>
+             对于frame内联框架的格式排版不太满意，与文字不太居中对应，但是查找相关资料也没有很好的解决这个问题。除此之外，感觉页面有些单调，还是没有特别形象生动。
+
+            </p>
+
+            <h2 align="center"><font color="#33FFCC">总结</font></h2>
+
+			<p>
+                总的来说，通过这个项目的开发，我学习到了许多关于Web应用的知识，包括HTML、CSS、JavaScript等技术。我也深刻地认识到了开发过程中所遇到的问题和挑战，
+                发现简单的看一遍知识点跟真正动手实践去做一个网页还是有很大差距，也发现了自己很多地方学的并不扎实，也让我认识到了自己的不足。
+                但是通过这个项目的开发，我也学到了很多东西，既夯实了学到的理论知识，又提高了实操锻炼的能力和解决问题的能力。在未来的学习和工作中，
+                我将更加注重Web应用的安全性和用户体验，做出更精美，功能更完备的页面。
+		   </p>
+	</font>
+</div>
+	</body>
+</html>
